@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- Portfolio website - Style 7: Graph -->
+<!-- TIP: use Find & Replace (Ctrl + H) -> "Replace All" to change "Your Name" and the link placeholders everywhere at once -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paramesh | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ===== BLACK SIDEBAR (fixed on big screens) ===== -->
+  <aside class="side">
+
+    <div class="side-top">
+      <div>
+        <p class="tiny">PORTFOLIO / 2026</p>
+        <a href="#top" class="name">Paramesh</a>
+      </div>
+      <button class="menu-btn" id="menuBtn">menu</button>
+    </div>
+
+    <!-- the headings are written like code: about(), skills[], projects{} -->
+    <nav class="menu" id="menu">
+      <a href="#about"><span>01</span> about()</a>
+      <a href="#skills"><span>02</span> skills[]</a>
+      <a href="#projects"><span>03</span> projects{}</a>
+      <a href="#contact"><span>04</span> contact()</a>
+    </nav>
+
+    <!-- CHANGE THESE 3 LINKS -->
+    <div class="side-links">
+      <a href="https://github.com/ParameshRamesh" target="_blank" rel="noopener">github &#8599;</a>
+      <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener">linkedin &#8599;</a>
+      <a href="25bcs040@kgcas.com">email &#8599;</a>
+    </div>
+
+  </aside>
+
+  <!-- ===== THE GRAPH PAPER ===== -->
+  <div class="paper" id="paper">
+
+    <!-- the dots you click on the paper are added into this empty box -->
+    <div class="layer" id="layer"></div>
+
+    <main>
+
+      <!-- ===== HERO ===== -->
+      <section class="hero" id="top">
+        <p class="label">// hello, world</p>
+
+        <h1>Hi, I'm<br><span class="mark">Paramesh</span></h1>
+
+        <p class="lead">
+          Second year B.Sc. Computer Science student at KG College of Arts and
+          Science, passionate about technology, software development and cloud computing.
+        </p>
+
+        <p class="tip">tip: click anywhere on the paper</p>
+      </section>
+
+      <!-- ===== ABOUT ===== -->
+      <section id="about">
+        <h2><span>01</span>about()</h2>
+        <p class="statement">
+          I like turning ideas into practical solutions, and I am working
+          towards a career as a technology professional.
+        </p>
+        <p>
+          I am constantly learning, building projects and exploring new
+          technologies. My goal is to gain hands-on experience, contribute to
+          meaningful projects and grow into a skilled IT professional.
+        </p>
+      </section>
+
+      <!-- ===== SKILLS ===== -->
+      <section id="skills">
+        <h2><span>02</span>skills[]</h2>
+
+        <div class="cells">
+          <div class="cell"><b>HTML</b><span>Page structure</span></div>
+          <div class="cell"><b>CSS</b><span>Layout and design</span></div>
+          <div class="cell"><b>JavaScript</b><span>Behaviour and the DOM</span></div>
+          <div class="cell"><b>Java</b><span>Programming fundamentals</span></div>
+        </div>
+      </section>
+
+      <!-- ===== PROJECTS ===== -->
+      <section id="projects">
+        <h2><span>03</span>projects{}</h2>
+
+        <div class="cards">
+          <div class="card">
+            <span class="num">01</span>
+            <h3>Food Delivery System</h3>
+            <p>An application where users can browse food items, place orders and have them delivered.</p>
+            <em>Software</em>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CONTACT ===== -->
+      <section id="contact">
+        <h2><span>04</span>contact()</h2>
+
+        <div class="contact-grid">
+
+          <form id="contactForm">
+            <label for="name">name</label>
+            <input type="text" id="name">
+
+            <label for="email">email</label>
+            <input type="text" id="email">
+
+            <label for="message">message</label>
+            <textarea id="message" rows="4"></textarea>
+
+            <button type="submit">send &rarr;</button>
+            <!-- JavaScript writes the result here -->
+            <p id="formMsg"></p>
+          </form>
+
+          <!-- CHANGE THESE 3 LINKS -->
+          <div class="links">
+            <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">
+              <span>GitHub</span><i>@YOUR-USERNAME</i>
+            </a>
+            <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener">
+              <span>LinkedIn</span><i>Paramesh</i>
+            </a>
+            <a href="mailto:YOUR-EMAIL@gmail.com">
+              <span>Email</span><i>YOUR-EMAIL@gmail.com</i>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Paramesh</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
